@@ -1,0 +1,6 @@
+body { font-family: Arial; background: #f4f4f4; padding: 10px; }
+#messages { list-style: none; padding: 0; }
+#messages li { padding: 5px; background: #fff; margin-bottom: 5px; border-radius: 4px; }
+form { position: fixed; bottom: 0; width: 100%; background: #ddd; padding: 10px; }
+
+
