@@ -8,7 +8,7 @@ const usersInRoom = {}; // { roomName: Set([socket.id, ...]) }
 
 dotenv.config();
 
-const serviceAccount = require('./firebase-service-account.json');
+const serviceAccount = require('./serviceAccountKey.json');
 
 admin.initializeApp({
   credential: admin.credential.cert(serviceAccount)
